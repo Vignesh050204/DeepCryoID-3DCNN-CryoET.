@@ -1,2 +1,28 @@
-# DeepCryoID-3DCNN-CryoET.
-3D-CNN deep learning pipeline for automated protein complex classification in Cryo-Electron Tomography images | PyTorch | SHREC 2019 | 91-97% Accuracy.
+# DeepCryoID 🔬
+
+A deep learning-based pipeline for automated identification and 
+classification of protein complexes in Cryo-Electron Tomography 
+(CryoET) subtomogram images using 3D Convolutional Neural Networks.
+
+## 🎯 Overview
+
+Cryo-ET produces 3D volumetric images of cellular structures, but 
+manual classification is time-consuming and error-prone. DeepCryoID 
+automates this process using a custom 3D-CNN architecture trained on 
+the SHREC 2019 benchmark dataset.
+
+## 📊 Results
+
+| Metric | Score |
+|--------|-------|
+| Accuracy | 91% - 97% |
+| Dataset | SHREC 2019 |
+| Classes | 10 protein complexes |
+
+## 🛠️ Tools & Technologies
+
+- **Deep Learning:** PyTorch
+- **Language:** Python 3
+- **Dataset:** SHREC 2019 CryoET Benchmark
+- **UI:** CustomTkinter (Desktop App), Flask (Web App)
+- **Notebook:** Jupyter Notebook
