@@ -34,12 +34,5 @@ the SHREC 2019 benchmark dataset.
 ├── Desktop_app.py                 # CustomTkinter desktop app
 ├── protein_project_v2.ipynb       # Main training notebook
 ├── protein_model.pth              # Trained model weights
-│
-├── graph_1_sample_volumes.png     # Sample CryoET volumes
-├── graph_2_training_curves.png    # Training & validation curves
-├── graph_3_confusion_matrix.png   # Confusion matrix
-├── graph_4_metrics.png            # Performance metrics
-├── graph_5_architecture.png       # 3D-CNN architecture
-├── graph_6_dashboard.png          # Results dashboard
-├── graph_7_live_prediction.png    # Live prediction output
+
 
